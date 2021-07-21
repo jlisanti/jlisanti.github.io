@@ -53,7 +53,7 @@
 									<header class="major">
 										<h3>About Me</h3>
 									</header>
-									<p> I have a background in engineering with a wide range of experiences, from working as a graduate student in the Clean Combustion Research Center (CCRC) at KAUST in Saudi Arabia to writing SBIR proposals as part of the three-person startup Smart Material Solutions (SMS) in Raleigh and now managing an R&D department at Sumitomo Electric Lightwave (SEL). Through these experiences, I have learned that I am happiest when working to solve challenging problems or any task that has a tangible impact. </p>
+									<p> I have a background in engineering and a wide range of experiences, from working as a graduate student in the Clean Combustion Research Center (CCRC) at KAUST in Saudi Arabia to writing SBIR proposals as part of the three-person startup Smart Material Solutions (SMS) in Raleigh and now managing an R&D department at Sumitomo Electric Lightwave (SEL). Through these experiences, I have learned that I am happiest when working to solve challenging problems or any task that has a tangible impact. Particularly if that impact is broadly positive for society. </p>
 								</div>
 							</section>
 
