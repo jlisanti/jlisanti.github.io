@@ -24,7 +24,7 @@
 						<li><a href="#two">Key Skills</a></li>
 						<li><a href="#three">Projects</a></li>
 						<li><a href="#four">Education</a></li>
-						<li><a href="#five">Contact</a></li>
+						<!-- <li><a href="#five">Contact</a></li> -->
 					</ul>
 				</nav>
 				<footer>
@@ -80,6 +80,13 @@
 									<p>The following projects were completed during my graduate studies and illustrate a portion of my technical capabilities and experience.</p>
 									<div class="features">
 										<article>
+											<a href="#" class="image"><img src="images/combustorCAD.png" alt="" /></a>
+											<div class="inner">
+												<h4>Active-valve Resonant Pulse Combustor</h4>
+												<p>Developed novel resonant pulse combustor technology with an actively driven mechanical valve enabling robust operation for test durations (hours/days) orders of magnitude above what was possible with conventional technology (minutes). The development process included CAD modeling (Solidworks), generating 2D drawings for fabrication (GD&T), design of experiments for evaluation, and experimental verification (selecting/procuring instrumentation, analog circuit design, LabView development).</p>
+											</div>
+										</article>
+										<article>
 											<a href="#" class="image"><img src="images/time_0249.png" alt="" /></a>
 											<div class="inner">
 												<h4>pcFoam OpenFOAM Solver</h4>
@@ -91,13 +98,6 @@
 											<div class="inner">
 												<h4>High Pressure Shroud</h4>
 												<p>Designed and oversaw the fabrication of a high-pressure apparatus to study pressure gain combustion systems in gas turbine relevant conditions, including necessary control interfaces and instrumentation for characterizing performance and emissions. Designed and implemented a robust safety system for ensuring the safe operation of the high-pressure apparatus.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/combustorCAD.png" alt="" /></a>
-											<div class="inner">
-												<h4>Active-valve Resonant Pulse Combustor</h4>
-												<p>Developed novel resonant pulse combustor technology with an actively driven mechanical valve enabling robust operation for test durations (hours/days) orders of magnitude above what was possible with conventional technology (minutes). The development process included CAD modeling (Solidworks), generating 2D drawings for fabrication (GD&T), design of experiments for evaluation, and experimental verification (selecting/procuring instrumentation, analog circuit design, LabView development).</p>
 											</div>
 										</article>
 										<article>
@@ -126,8 +126,9 @@
 									</ul>
 								</div>
 							</section>
-
-						<!-- Five -->
+							<!-- Five -->
+<!-- 
+						
 							<section id="five">
 								<div class="container">
 									<h3>Contact Me</h3>
@@ -147,7 +148,7 @@
 									</form>
 								</div>
 							</section>
-
+						-->
 						<!-- Five -->
 						<!--
 							<section id="five">
