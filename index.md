@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Read Only by HTML5 UP</title>
+		<title>Joel's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,7 +21,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Technical Skills</a></li>
+						<li><a href="#two">Key Skills</a></li>
 						<li><a href="#three">Projects</a></li>
 						<li><a href="#four">Education</a></li>
 						<li><a href="#five">Contact</a></li>
@@ -33,7 +29,7 @@
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://twitter.com/joellisanti/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 						<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
 						<li><a href="https://github.com/jlisanti/" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -56,25 +52,23 @@
 								<div class="container">
 									<header class="major">
 										<h3>About Me</h3>
-										<!-- <p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
 									</header>
-									<p>Creative engineer with an effective balance of technical competencies and interpersonal skills. Background in both the practical aspects of experimental research, design & development, and computational research & practical programming. Self-motivated and detailed oriented, excellent communication and organizational skills, experienced giving both technical and informative presentations to large groups, executives, and key stakeholders. </p>
+									<p> I have a background in engineering with a wide range of experiences, from working as a graduate student in the Clean Combustion Research Center (CCRC) at KAUST in Saudi Arabia to writing SBIR proposals as part of a three-person startup Smart Material Solutions (SMS) in Raleigh and now managing an R&D department at Sumitomo Electric Lightwave (SEL). Through these experiences, I have learned that I am happiest when working to solve challenging problems or any task that has a tangible impact. </p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Technical Skills</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+									<h3>Key Skills</h3>
+									<p>I am a ceative engineer with an effective balance of technical competencies and interpersonal skills. I have a background in both the practical aspects of experimental research, design & development, and computational research & practical programming. Self-motivated and detailed oriented, excellent communication and organizational skills, experienced giving both technical and informative presentations to large groups, executives, and key stakeholders.</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code">C++, Python, Go</li>
-										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-cubes">Project management</li>
 										<li class="icon solid fa-book">Proposal composition</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">R&D team and project management</li>
+										<li class="icon solid fa-coffee">Excellent interpersonal skills</li>
+										<li class="icon solid fa-bolt">Mechanical design, CAD, GD&T</li>
+										<li class="icon solid fa-users">R&D team management</li>
 									</ul>
 								</div>
 							</section>
@@ -83,41 +77,34 @@
 							<section id="three">
 								<div class="container">
 									<h3>Select Projects</h3>
-									<p>The following projects were completed during my graduate studies</p>
+									<p>The following projects were completed during my graduate studies and illustrate a portion of my technical capabilities and experience.</p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/time_0249.png" alt="" /></a>
 											<div class="inner">
-												<h4>Fully explicit, reacting OpenFOAM solver with dynamic mesh capability</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>pcFoam OpenFOAM Solver</h4>
+												<p>Built a fully explicit, compressible solver with gas-phase chemical reaction and dynamic mesh capability (pcFoam) using the OpenFOAM CFD library. Utilized this solver to simulate the operation of a novel, active-valve resonant pulse combustor on a Red Hat cluster and post-processed the results using ParaView software. </p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/fig9.png" alt="" /></a>
 											<div class="inner">
-												<h4>Post-processing tool for novel, active valve resonant pulse combustor experiment</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>High Pressure Shroud</h4>
+												<p>Designed and oversaw the fabrication of a high-pressure apparatus to study pressure gain combustion systems in gas turbine relevant conditions, including necessary control interfaces and instrumentation for characterizing performance and emissions. Designed and implemented a robust safety system for ensuring the safe operation of the high-pressure apparatus.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/combustorCAD.png" alt="" /></a>
 											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Active-valve Resonant Pulse Combustor</h4>
+												<p>Developed novel resonant pulse combustor technology with an actively driven mechanical valve enabling robust operation for test durations (hours/days) orders of magnitude above what was possible with conventional technology (minutes). The development process included CAD modeling (Solidworks), generating 2D drawings for fabrication (GD&T), design of experiments for evaluation, and experimental verification (selecting/procuring instrumentation, analog circuit design, LabView development).</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/fig5a.png" alt="" /></a>
+											<a href="#" class="image"><img src="images/lii_2.001.png" alt="" /></a>
 											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/LII.001.jpeg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Laser-induced Incandescence (LII) Post-processing Tool</h4>
+												<p>Built KLIIP (KAUST Laser-induced Incandescence Post-processing), a C++ tool to allow quantitative soot primary particle size information to be obtained using the Laser-induced Incandescence measurement technique. This post-processing tool required modeling the complex physics that occurs when soot particles are rapidly heated through laser irradiation and then cooled. From this cooling rate, the particle size information is obtained; thus, accurate modeling of the physics is critical to the overall accuracy of the result. The project was carried out as coordination between three research activities, two providing experimental data and the third using experimental data and results to enhance the model.</p>
 											</div>
 										</article>
 									</div>
@@ -129,7 +116,7 @@
 									<h3>Education</h3>
 									<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p> -->
 									<ul class="inner">
-										<li>Ph.D. Mechanical Engineering <br> King Abdullah University of Science and Technology (KAUST) <br> 2014 - Present</li>
+										<li>Ph.D. Mechanical Engineering <br> King Abdullah University of Science and Technology (KAUST) <br> 2014 - Present <br> <i>Expected Graduation: December, 2021</i></li>
 									</ul>
 									<ul class="inner">
 										<li>M.S. Mechanical Engineering <br> King Abdullah University of Science and Technology (KAUST) <br> 2012 - 2014</li>
@@ -144,7 +131,6 @@
 							<section id="five">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
 									<form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
